@@ -72,3 +72,10 @@ describe('GET /todos', () => {
             .end(done);
     });
 });
+
+// describe('GET /todos/:id', () => {
+//     it ('should get the todo with :id', (done) => {
+//         request(app)
+//             .get()
+//     });
+// });
